@@ -6,3 +6,6 @@
 **[实验二：BombLab详解](https://www.jianshu.com/p/d14e1fbd4b5f)**
 
 **[实验三：MollocLab详解](https://www.jianshu.com/p/6e59fde0e6c0)**
+
+
+**[实验四：ShellLab详解](https://www.jianshu.com/p/43533495d30a)**
