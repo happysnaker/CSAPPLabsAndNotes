@@ -1,6 +1,8 @@
 # CSAPP-labs-RECORD
 **读万卷书，不如行万里路。**
 
+**[原书pdf下载：提取码 p8p5](https://pan.baidu.com/s/1URsLtw1MsUjiw-_PMs7K5g)**
+
 **[虚拟机下载安装](https://blog.csdn.net/stpeace/article/details/78598333)**
 
 **[CSAPPLabs官网](http://csapp.cs.cmu.edu/3e/labs.html)**
