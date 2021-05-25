@@ -5,8 +5,6 @@
 
 **[读书笔记pdf下载](https://pan.baidu.com/s/1465iQ9-GL4x813i7a-82wg?_at_=1619591241897) - 提取码2455**
 
-**[在线多人编辑读书笔记](https://www.kdocs.cn/l/sgn0g2WzYQnn?f=131)**
-
 **[虚拟机下载安装](https://blog.csdn.net/stpeace/article/details/78598333)**
 
 **[CSAPPLabs官网](http://csapp.cs.cmu.edu/3e/labs.html)**
