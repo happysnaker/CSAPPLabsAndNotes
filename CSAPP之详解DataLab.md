@@ -12,14 +12,14 @@
 
 ```
 int Funct(arg1, arg2，…){
-	    /*简单描述你的实现如何工作*/
-	    int var1 = Expr1;
-	    …
-	    int varM = ExprM;
-	    varJ = ExprJ;
-	    …
-	    varN = ExprN;
-	    return ExprR;
+    /*简单描述你的实现如何工作*/
+    int var1 = Expr1;
+    …
+    int varM = ExprM;
+    varJ = ExprJ;
+    …
+    varN = ExprN;
+    return ExprR;
 }
 ```
 
@@ -447,7 +447,7 @@ int floatFloat2Int(unsigned uf) {
 unsigned floatPower2(int x) {
 	int e = x + 127;
 	if (e >= 255)
-		return 0x7f800000;
+		return 0x7f800000;//0b 0111,1000,0000,0000
 	if (x < 0)
 		return 0;
 	return e << 23;	
@@ -458,3 +458,5 @@ unsigned floatPower2(int x) {
 **解答：**
 
 我们可以计算1.0 * 2<sup>x</sup>来达到这个目的，先排除掉几个值之外，我们将x + Bias作为阶码域返回即可，此时规格化的值会默认小数为1.0。
+
+这一题学校电脑超时了，而自己电脑却可以通过，可以键入```./btest -T 20```修改评测时间为20ms或更多。
