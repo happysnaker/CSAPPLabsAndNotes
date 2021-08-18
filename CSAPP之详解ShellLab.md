@@ -9,14 +9,13 @@ Write文档：
 
 **实验说明**
 1. 你只能修改tsh.c文件来完成其中的7个函数：
-•eval：解析和解释命令行的主例程。 [大约70行]
-•builtin_cmd：识别并解释内置命令：quit，fg，bg和job。 [大约25
-行]
-•do_bgfg：实现bg和fg内置命令。 [大约50行]
-•waitfg：等待前台作业完成。 [大约20行]
-•sigchld处理程序：处理SIGCHILD信号。 [大约80行]
-•sigint处理程序：处理SIGINT（ctrl-c）信号。 [大约15行]
-•sigtstp处理程序：处理SIGTSTP（ctrl-z）信号。 [大约15行]
+- eval：解析和解释命令行的主例程。 [大约70行]
+- biltin_cmd：识别并解释内置命令：quit，fg，bg和job。 [大约25行]
+- do_bgfg：实现bg和fg内置命令。 [大约50行]
+- waitfg：等待前台作业完成。 [大约20行]
+- sigchld处理程序：处理SIGCHILD信号。 [大约80行]
+- sigint处理程序：处理SIGINT（ctrl-c）信号。 [大约15行]
+- sigtstp处理程序：处理SIGTSTP（ctrl-z）信号。 [大约15行]
 
 2.  每次修改tsh.c文件后，你都需要键入单独的一个```make```命令来完成一系列准备工作，官方提供了16个测试来检验你的答案，你需要键入```make testXX```来输出自己的答案，然后输入```make rtestXX```来比对标准答案，其中XX = 01、02、03、......、16。你的答案必须和标准答案一样才算成功(进程号可以是不同的，因为它们是随机的)，例如：
 ```
@@ -48,7 +47,7 @@ int parseline(const char *cmdline, char **argv); 		/*解析命令行的函数，
 void sigquit_handler(int sig);							/*quit信号处理*/
 void clearjob(struct job_t *job);						/*清理进程链表，退出的时候用*/
 void initjobs(struct job_t *jobs);						/*初始化进程链表*/
-int maxjid(struct job_t *jobs); 						/*找到最大的进程组号*/
+int maxjid(struct job_t *jobs); 						/*找到最大的进程PID*/
 int addjob(struct job_t *jobs, pid_t pid, int state, char *cmdline);	/*添加进程，这个是需要我们手动添加的*/
 int deletejob(struct job_t *jobs, pid_t pid); 			/*删除进程，依然需要我们手动删除*/
 pid_t fgpid(struct job_t *jobs);						/*如果有前台工作进程，返回1，否则返回0*/
@@ -64,18 +63,15 @@ handler_t *Signal(int signum, handler_t *handler);
 ```
 
 4. 用户键入的命令行应由一个名称和零个或多个参数组成，所有参数以一个或多个空格分隔。如果name是内置命令，则tsh应该立即处理它并等待下一个命令行。否则，tsh应该假定名称是可执行文件，它会在初始子进程的上下文中加载并运行（在这种情况下，工作一词是指此初始子流程。有几个需要注意的地方：
-•tsh不需要支持管道（|）或I / O重定向（<和>）。
-•键入ctrl-c（ctrl-z）应该会导致SIGINT（SIGTSTP）信号发送到当前的前地面作业以及该作业的任何后代（例如，它派生的任何子进程）。如果没有前台作业，则该信号应该没有任何作用。
-•如果命令行以＆结束，则tsh应该在后台运行作业。否则，它应该在前台运行作业。
-•每个作业都可以由进程ID（PID）或作业ID（JID）标识，该ID是一个正整数
-由tsh分配。 JID应该在命令行上以前缀“％”表示。例如，“％5” 表示JID 5，“ 5”表示PID5。（我们已为您提供了所需的所有例程处理工作清单。）
-•tsh应该支持以下内置命令：
+- tsh不需要支持管道（|）或I / O重定向（<和>）。
+- 键入ctrl-c（ctrl-z）应该会导致SIGINT（SIGTSTP）信号发送到当前的前地面作业以及该作业的任何后代（例如，它派生的任何子进程）。如果没有前台作业，则该信号应该没有任何作用。
+- 如果命令行以＆结束，则tsh应该在后台运行作业。否则，它应该在前台运行作业。
+- 每个作业都可以由进程ID（PID）或作业ID（JID）标识，该ID是一个正整数由tsh分配。 JID应该在命令行上以前缀“％”表示。例如，“％5” 表示JID 5，“5”表示PID5。（我们已为您提供了所需的所有例程处理工作清单。）
+- tsh应该支持以下内置命令：
 – quit命令终止tsh程序。
 – jobs命令列出所有后台作业。
-– bg <job>命令通过向其发送SIGCONT信号来重新启动<job>，然后在
-的背景。 <job>参数可以是PID或JID。
-– fg <job>命令通过向其发送SIGCONT信号来重新启动<job>，然后在
-前景。 <job>参数可以是PID或JID。
+– bg <job>命令通过向其发送SIGCONT信号来重新启动<job>，然后在背景。 <job>参数可以是PID或JID。
+– fg <job>命令通过向其发送SIGCONT信号来重新启动<job>，然后在前景。 <job>参数可以是PID或JID。
 
 5. 正如前面所说的，我们的答案必须要和标准答案相同，所以在特定的位置我们需要输出特定的语句。例如，在后台工作运行时，我们要打印它的一系列参数等等等。
 
@@ -116,10 +112,11 @@ void eval(char *cmdline)
 	sigaddset(&mask_one, SIGCHLD);
 
 	if (!builtin_cmd(argv)){
-		sigprocmask(SIG_BLOCK, &mask_one, &prev_one);/*必须要锁住，防止addjob和信号处理竞争*/
+		sigprocmask(SIG_BLOCK, &mask_one, &prev_one);/*必须要锁住，防止addjob和由子进程终止引起的信号处理竞争*/
 		if ((pid = Fork()) == 0){
+			/*tsh派生子进程默认和子进程在一个进程组下*/
 			/*setpgid将子进程组和tsh进程组分开来，避免停止子进程组把tsh一起停止掉，同时子进程组id就等于pid，发送消息很方便*/
-			/*请注意进程组id并不等于题目中的jid*/
+			/*请注意进程id并不等于题目中的jid，但jid和pid都可以用来标识一个作业*/
 			if (setpgid(0, 0) < 0){
 				perror("setpgid error!");
 				exit(0);
@@ -131,7 +128,7 @@ void eval(char *cmdline)
 			}
 		}
 		if (!bg){
-			sigprocmask(SIG_BLOCK, &mask_all, NULL);/*锁住一切信号，避免addjob处理程序中断*/
+			sigprocmask(SIG_BLOCK, &mask_all, NULL);/*锁住一切信号，避免addjob函数被中断*/
 			addjob(jobs, pid, FG, cmdline);
 			sigprocmask(SIG_SETMASK, &prev_one, NULL);
 			waitfg(pid);
@@ -158,7 +155,7 @@ int builtin_cmd(char **argv)
 	//printf ("cmd\n");
 	if (strcmp(argv[0], "quit") == 0)
 		exit(0);	
-    else if (strcmp(argv[0], "&") == 0)
+    	else if (strcmp(argv[0], "&") == 0)
 		return 1;
 	else if (strcmp(argv[0], "fg") == 0)
 		do_bgfg(argv);
@@ -207,7 +204,7 @@ void do_bgfg(char **argv)
 	}
 
 	/*发送信号，这里要求发送到进程组，所以采用负数*/
-	/*子进程的进程组id和pid是一致的，请不要将jid和进程组id搞混了*/
+	/*之前setpid后，子进程的进程组id和pid是一致的，请不要将jid和pid搞混了*/
 	kill(-(job->pid), SIGCONT);
 	if (strcmp(argv[0], "bg") == 0){
 		job->state = BG;/*设置状态*/
