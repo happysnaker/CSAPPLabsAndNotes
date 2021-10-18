@@ -8,6 +8,9 @@
 
 **[虚拟机下载安装教程](https://blog.csdn.net/stpeace/article/details/78598333)**
 
+**[官网的实验文档](https://github.com/happysnaker/CSAPPLabsAndNotes/tree/CSAPP/AllTheLabsHandout)**
+> 你可以直接 clone 本项目， 仓库下AllTheLabsHandout文件中包含了所有实验的官方文档，除了malloc lab，因为malloc lab实验官方文档是残缺的，可以直接下载仓库下的molloc-Lab文件。 
+
 **[CSAPPLabs官网](http://csapp.cs.cmu.edu/3e/labs.html)**
 
 ## 实验详解
