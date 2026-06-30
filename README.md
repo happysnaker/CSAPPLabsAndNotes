@@ -43,4 +43,4 @@ If this repo helped you save time while learning systems fundamentals:
 
 - give it a star
 - share it with classmates or other learners
-- support my open-source work via my GitHub profile: [happysnaker](https://github.com/happysnaker#support-my-open-source-work)
+- support my open-source work via the support page: [happysnaker.github.io/support](https://happysnaker.github.io/support/)
