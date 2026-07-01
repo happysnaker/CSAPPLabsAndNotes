@@ -58,6 +58,14 @@ Typical support fit for this repo:
 - **¥19.9** — if it helped your CS:APP study or systems interview prep materially
 - **¥99** — if you want compact async feedback on your GitHub profile / README / technical portfolio
 
+## Related repos
+
+If you want to keep going after CS:APP-style systems study, these repos are the closest follow-ons:
+
+- **[backend-engineer-checklist](https://github.com/happysnaker/backend-engineer-checklist)** — backend fundamentals roadmap across systems, databases, networking, and delivery
+- **[system-design-checklist](https://github.com/happysnaker/system-design-checklist)** — design-review and interview-oriented systems tradeoffs
+- **[happydb](https://github.com/happysnaker/happydb)** — database internals learning project covering storage, indexing, transactions, recovery, and execution
+
 ## License
 
 My original notes, writeups, and code in this repository are released under the **MIT License**.
