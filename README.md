@@ -34,6 +34,8 @@ This repository is best understood as a **study and reference repository**, not 
 - shells and processes
 - network proxy fundamentals
 
+Some files in this repository are original notes / code written while studying CS:APP, while some bundled handouts or reference materials may originate from external course material. See the license notes below.
+
 ## Who this is for
 
 - students working through CS:APP
@@ -55,3 +57,9 @@ Typical support fit for this repo:
 - **¥9.9** — if one lab note or writeup saved you a debugging detour
 - **¥19.9** — if it helped your CS:APP study or systems interview prep materially
 - **¥99** — if you want compact async feedback on your GitHub profile / README / technical portfolio
+
+## License
+
+My original notes, writeups, and code in this repository are released under the **MIT License**.
+
+Some bundled handouts or third-party reference materials may retain their original copyright / license terms and are **not** relicensed by the repository MIT license. See [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md) for the scope.
