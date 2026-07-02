@@ -6,6 +6,8 @@
 
 Notes, walkthroughs, and lab material collected while studying **Computer Systems: A Programmer's Perspective (CS:APP)**.
 
+- Project page: [happysnaker.github.io/csapp-labs-notes](https://happysnaker.github.io/csapp-labs-notes/)
+
 ## Overview
 
 This repository is a systems-learning archive centered around hands-on CS:APP practice, including:
@@ -59,6 +61,8 @@ Typical support fit for this repo:
 
 - **¥9.9** — if one lab note or writeup saved you a debugging detour
 - **¥19.9** — if it helped your CS:APP study or systems interview prep materially
+- **best payment note** — `CSAPPLabsAndNotes`
+- **fastest path** — tip directly on the support page if one note saved you time; use **¥29.9** / **¥99** only if you also want feedback back
 - **¥99** — if you want compact async feedback on your GitHub profile / README / technical portfolio
 
 ## Related repos
