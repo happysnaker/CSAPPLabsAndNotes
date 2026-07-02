@@ -8,6 +8,7 @@
 Notes, walkthroughs, and lab material collected while studying **Computer Systems: A Programmer's Perspective (CS:APP)**.
 
 - Project page: [happysnaker.github.io/csapp-labs-notes](https://happysnaker.github.io/csapp-labs-notes/)
+- Support discussion: [If one CS:APP note saved you time, here is the shortest support path](https://github.com/happysnaker/CSAPPLabsAndNotes/discussions/7)
 
 ## Overview
 
