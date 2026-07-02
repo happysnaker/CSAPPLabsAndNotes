@@ -1,6 +1,7 @@
 # CSAPPLabsAndNotes
 
 [![Stars](https://img.shields.io/github/stars/happysnaker/CSAPPLabsAndNotes?style=social)](https://github.com/happysnaker/CSAPPLabsAndNotes/stargazers)
+[![Project Page](https://img.shields.io/badge/project-page-7aa2ff)](https://happysnaker.github.io/csapp-labs-notes/)
 [![Support](https://img.shields.io/badge/support-WeChat%20%26%20Alipay-7aa2ff)](https://happysnaker.github.io/support/#from-csapplabsandnotes)
 [![Async Review](https://img.shields.io/badge/review-Quick%20read%20%2F%20async-9b87f5)](https://happysnaker.github.io/review/)
 
