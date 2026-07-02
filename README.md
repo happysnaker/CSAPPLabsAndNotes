@@ -53,6 +53,7 @@ If this repo helped you save time while learning systems fundamentals:
 - if GitHub shows a **Sponsor** button on this repo, it routes to the same support page
 - if these notes saved you time while preparing for systems interviews or labs, a small tip is appreciated
 - if you want lightweight async feedback on a public GitHub profile, README, or portfolio page, details are also available on the support page
+- if you want the best value right now, the **first paid request in July** gets one extra public page / README in the same pass
 
 Typical support fit for this repo:
 
