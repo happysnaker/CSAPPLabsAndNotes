@@ -55,7 +55,7 @@ If this repo helped you save time while learning systems fundamentals:
 - support my open-source work via the support page: [happysnaker.github.io/support](https://happysnaker.github.io/support/#from-csapplabsandnotes)
 - if GitHub shows a **Sponsor** button on this repo, it routes to the same support page
 - if these notes saved you time while preparing for systems interviews or labs, a small tip is appreciated
-- if you want lightweight async feedback on a public GitHub profile, README, or portfolio page, details are also available on the support page
+- if you want to turn study repos like this into stronger public proof of work, lightweight async feedback on your GitHub profile, README, or portfolio page is also available on the support page
 - if you want the best value right now, the **first paid request in July** gets one extra public page / README in the same pass
 
 Typical support fit for this repo:
@@ -64,7 +64,7 @@ Typical support fit for this repo:
 - **¥19.9** — if it helped your CS:APP study or systems interview prep materially
 - **best payment note** — `CSAPPLabsAndNotes`
 - **fastest path** — tip directly on the support page if one note saved you time; use **¥29.9** / **¥99** only if you also want feedback back
-- **¥99** — if you want compact async feedback on your GitHub profile / README / technical portfolio
+- **¥99** — if you want compact async feedback on your GitHub profile / README / technical portfolio, especially when your study repos are real but still read too much like coursework
 
 ## Related repos
 
