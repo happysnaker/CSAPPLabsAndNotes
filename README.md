@@ -10,6 +10,7 @@ Notes, walkthroughs, and lab material collected while studying **Computer System
 - Project page: [happysnaker.github.io/csapp-labs-notes](https://happysnaker.github.io/csapp-labs-notes/)
 - Support discussion: [If one CS:APP note saved you time, here is the shortest support path](https://github.com/happysnaker/CSAPPLabsAndNotes/discussions/7)
 - FAQ: [When does a study repo stop looking like coursework and start looking like real proof of work?](https://github.com/happysnaker/CSAPPLabsAndNotes/discussions/8)
+- Case note: [One strong study repo can help you, ten weak ones can bury it](https://github.com/happysnaker/CSAPPLabsAndNotes/discussions/9)
 
 ## Overview
 
