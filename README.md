@@ -65,7 +65,9 @@ Typical support fit for this repo:
 - **¥19.9** — if it helped your CS:APP study or systems interview prep materially
 - **best payment note** — `CSAPPLabsAndNotes`
 - **fastest path** — tip directly on the support page if one note saved you time; use **¥29.9** / **¥99** only if you also want feedback back
+- **¥29.9** — if your own study repo / README / profile is real but still reads too much like coursework: [quick-read email template](mailto:happysnaker@foxmail.com?subject=Quick%20read%20%7C%20study%20repo%20or%20profile%20link&body=Public%20link%3A%0AWhat%20feels%20weak%3A%20study%20repo%20/%20README%20/%20GitHub%0APayment%20screenshot%3A%20attached)
 - **¥99** — if you want compact async feedback on your GitHub profile / README / technical portfolio, especially when your study repos are real but still read too much like coursework
+- **preview first** — see the redacted sample audit before buying: [github-profile-checklist/docs/redacted-audit-sample.md](https://github.com/happysnaker/github-profile-checklist/blob/main/docs/redacted-audit-sample.md)
 
 ## Related repos
 
