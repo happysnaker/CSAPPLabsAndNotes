@@ -2,12 +2,16 @@
 
 [![Stars](https://img.shields.io/github/stars/happysnaker/CSAPPLabsAndNotes?style=social)](https://github.com/happysnaker/CSAPPLabsAndNotes/stargazers)
 [![Project Page](https://img.shields.io/badge/project-page-7aa2ff)](https://happysnaker.github.io/csapp-labs-notes/)
+[![Flagship Repo](https://img.shields.io/badge/flagship-qq--ai--bot-62d2a2)](https://github.com/happysnaker/qq-ai-bot)
 [![Support](https://img.shields.io/badge/support-WeChat%20%26%20Alipay-7aa2ff)](https://happysnaker.github.io/support/#from-csapplabsandnotes)
 [![Async Review](https://img.shields.io/badge/review-Quick%20read%20%2F%20async-9b87f5)](https://happysnaker.github.io/review/)
 
 Notes, walkthroughs, and lab material collected while studying **Computer Systems: A Programmer's Perspective (CS:APP)**.
 
+> Maintainer note (2026): if you found this repo while checking my systems fundamentals or interview prep, the best current production-style repo to judge is **[qq-ai-bot](https://github.com/happysnaker/qq-ai-bot)** — a self-hosted QQ ↔ AI bridge for OneBot 11 / NapCat / LLOneBot with persistent sessions, progress streaming, and Docker packaging.
+
 - Project page: [happysnaker.github.io/csapp-labs-notes](https://happysnaker.github.io/csapp-labs-notes/)
+- Current flagship repo: [happysnaker/qq-ai-bot](https://github.com/happysnaker/qq-ai-bot)
 - Latest support note: [If CSAPPLabsAndNotes helped your systems interview prep: shortest support path](https://github.com/happysnaker/CSAPPLabsAndNotes/discussions/10)
 - Support discussion: [If one CS:APP note saved you time, here is the shortest support path](https://github.com/happysnaker/CSAPPLabsAndNotes/discussions/7)
 - FAQ: [When does a study repo stop looking like coursework and start looking like real proof of work?](https://github.com/happysnaker/CSAPPLabsAndNotes/discussions/8)
@@ -77,6 +81,7 @@ Typical support fit for this repo:
 
 If you want to keep going after CS:APP-style systems study, these repos are the closest follow-ons:
 
+- **[qq-ai-bot](https://github.com/happysnaker/qq-ai-bot)** — current flagship repo; a production-style self-hosted QQ ↔ AI bridge for OneBot 11 / NapCat / LLOneBot
 - **[backend-engineer-checklist](https://github.com/happysnaker/backend-engineer-checklist)** — backend fundamentals roadmap across systems, databases, networking, and delivery
 - **[system-design-checklist](https://github.com/happysnaker/system-design-checklist)** — design-review and interview-oriented systems tradeoffs
 - **[happydb](https://github.com/happysnaker/happydb)** — database internals learning project covering storage, indexing, transactions, recovery, and execution
