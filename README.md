@@ -61,6 +61,7 @@ If this repo helped you save time while learning systems fundamentals:
 - give it a star
 - share it with classmates or other learners
 - support my open-source work via the support page: [happysnaker.github.io/support](https://happysnaker.github.io/support/#from-csapplabsandnotes)
+- current cross-project sponsor brief: [Sponsor one-pager](https://github.com/happysnaker/happysnaker/releases/tag/v2026.07-sponsor-one-pager)
 - if GitHub shows a **Sponsor** button on this repo, it routes to the same support page
 - if these notes saved you time while preparing for systems interviews or labs, a small tip is appreciated
 - if you want to turn study repos like this into stronger public proof of work, lightweight async feedback on your GitHub profile, README, or portfolio page is also available on the support page
