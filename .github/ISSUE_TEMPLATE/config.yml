@@ -1,0 +1,17 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Proof before payment
+    url: https://happysnaker.github.io/support/#proof-before-payment
+    about: Check current proof, support routes, and concrete payment notes before tipping or buying feedback.
+  - name: 10-second support router
+    url: https://happysnaker.github.io/support/#sponsor-router
+    about: Choose Tip / Proof / Review / Fund before paying, sponsoring, or buying a review.
+  - name: Sponsor / paid-support intake replies
+    url: https://github.com/happysnaker/happysnaker/blob/master/docs/share-kit.md#sponsor--paid-support-intake-replies
+    about: Use proof-safe intake replies and privacy guardrails before asking people to pay or share context.
+  - name: Support / direct feedback
+    url: https://happysnaker.github.io/support/#from-csapplabsandnotes
+    about: Tip if one CS:APP note saved you time, or use the shortest support path tied to this repo.
+  - name: ¥29.9 quick read / ¥99 async review
+    url: https://happysnaker.github.io/review/
+    about: Best fit if your own study repo or GitHub profile is real but still reads too much like coursework.
