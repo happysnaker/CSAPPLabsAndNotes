@@ -9,6 +9,9 @@ contact_links:
   - name: Sponsor / paid-support intake replies
     url: https://github.com/happysnaker/happysnaker/blob/master/docs/share-kit.md#sponsor--paid-support-intake-replies
     about: Use proof-safe intake replies and privacy guardrails before asking people to pay or share context.
+  - name: Sponsor prospect pipeline
+    url: https://github.com/happysnaker/happysnaker/blob/master/docs/sponsor-prospect-pipeline.md
+    about: Route study-repo, README, and technical-profile review requests to the right proof, CTA, support note, and guardrail.
   - name: Support / direct feedback
     url: https://happysnaker.github.io/support/#from-csapplabsandnotes
     about: Tip if one CS:APP note saved you time, or use the shortest support path tied to this repo.
