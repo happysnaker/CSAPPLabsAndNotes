@@ -8,6 +8,7 @@ If **CSAPPLabsAndNotes** saved you time while studying systems fundamentals, the
 - Cross-project sponsor one-pager: https://github.com/happysnaker/happysnaker/releases/tag/v2026.07-sponsor-one-pager
 - Sponsor / paid-support intake replies: https://github.com/happysnaker/happysnaker/blob/master/docs/share-kit.md#sponsor--paid-support-intake-replies
 - Sponsor prospect pipeline: https://github.com/happysnaker/happysnaker/blob/master/docs/sponsor-prospect-pipeline.md
+- Sponsor conversion scorecard: https://github.com/happysnaker/happysnaker/blob/master/docs/sponsor-conversion-scorecard.md
 - Deploy-read sample before paying: https://happysnaker.github.io/review/deploy-read-sample/
 - GitHub Sponsor button (if shown): routes to the same support flow
 - WeChat Pay / Alipay QR codes are listed on the support page
@@ -16,4 +17,4 @@ If **CSAPPLabsAndNotes** saved you time while studying systems fundamentals, the
 - Quick paid feedback option: ¥29.9 quick read for one public link
 - Fuller async option: ¥99 for GitHub profile / README / portfolio packaging feedback
 
-Use the sponsor prospect pipeline to choose the right proof, CTA, support note, and guardrail before outreach or payment. Do not paste private logs, credentials, QR codes, payment screenshots, internal URLs, or raw live integration output in public issues. Keep paid-review intake on public study repo / GitHub profile / README links unless you move details to private email.
+Use the sponsor prospect pipeline to choose the right proof, CTA, support note, and guardrail before outreach or payment. Use the sponsor conversion scorecard to classify Hot / Warm / Nurture / No-send before posting an ask. Do not paste private logs, credentials, QR codes, payment screenshots, internal URLs, or raw live integration output in public issues. Keep paid-review intake on public study repo / GitHub profile / README links unless you move details to private email.
